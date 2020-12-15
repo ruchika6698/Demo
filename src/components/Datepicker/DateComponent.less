@@ -1,0 +1,89 @@
+.startProgram{
+    border: 1px solid #c5c5c5;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.datepicker input{
+    width:100%;
+    max-width:300px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 5px 0px 5px 50px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: .32px;
+    line-height: 22px;
+    color: #323232;
+    font-weight: 400;
+}
+.vdp-datepicker__calendar {
+    width:100%;
+    max-width:270px !important;
+}
+.calenderImage{
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-right:10px;
+    position: absolute;
+    z-index: 99;
+}
+.date{
+    padding: 5px 5px 5px 5px;
+    font-size: 16px;
+}
+.vdp-datepicker__calendar .cell.selected ,.vdp-datepicker__calendar .cell.day.selected.today{
+    background: #408EB0;
+    border-radius: 50px;
+    color:#ffffff !important;
+}
+.border {
+    border-color: #408EB0;
+}
+.vdp-datepicker__calendar .cell {
+    font-family: Montserrat;
+    font-size: 16px !important;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: .32px;
+    line-height: 22px;
+    color: #323232;
+}
+.vdp-datepicker__calendar .cell.month{
+    font-size: 14px !important;
+}
+.vdp-datepicker__calendar .cell.day:hover,.vdp-datepicker__calendar .cell.month:hover,.vdp-datepicker__calendar .cell.year:hover {
+    border: none !important;
+    font-weight: bold;
+}
+.vdp-datepicker__calendar .cell.day.today {
+    color: #408EB0 !important;
+    font-weight: bold;
+}
+.vdp-datepicker__calendar .cell.day-header {
+    visibility:hidden;
+}
+.vdp-datepicker__calendar .cell.day-header:first-letter {
+    padding-left: 10px;
+    visibility:visible;
+    font-weight: bolder;
+}
+.prev,.next,.day__month_btn,.month__year_btn,.vdp-datepicker__calendar header span{
+    background-color: #408EB0;
+    color: white !important;
+}
+.vdp-datepicker__calendar header .prev:after {
+    border-right: 10px solid #ffffff !important;
+    margin-left: -5px;
+}
+.vdp-datepicker__calendar header .next:after {
+    border-left: 10px solid #ffffff !important;
+    margin-left: 5px;
+}
+.prev:hover,.next:hover,.day__month_btn:hover,.month__year_btn:hover{
+    background-color:#408EB0 !important;
+    color: white !important;
+}
